@@ -1,0 +1,18 @@
+Contact list that allows users to
+    * add - users can enter name, street address, phone numbers and email address
+    * view - contacts will be returned
+    * delete - users can delete contacts by entering the name of the person they want to remove
+    * stop - stops the program from running
+
+Exceptions
+    * If user enters an invalid command on the console, exception will be thrown (valid entries are add, view, delete, stop)
+    * If a user attempts to add a contact and does not enter the name an exception will be thrown (Tells the user they must
+      enter a name after it runs through name, street, phone and email address)
+    * If a user attempts to enter the phone number using something besides a numerical value an exception will be thrown
+      and will prompt the user "Must enter numerical value"
+
+Logging
+    *Adding a contact
+    *Deleting contact
+    *Viewing contacts
+    *Blank name exception
