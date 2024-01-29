@@ -24,6 +24,8 @@ public class CLIParser {
                 return interpretAddAction();
             case "view":
                 return interpretViewAction();
+            case "search":
+                return interpretSearchAction();
             case "delete":
                 return interpretDeleteAction();
             case "stop":
@@ -47,6 +49,9 @@ public class CLIParser {
         orig had if else, changed to switch when added delete and stop
 */
     }
+
+
+
     public String interpretAddAction() throws ContactException{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Name");
@@ -73,6 +78,19 @@ public class CLIParser {
         return "Contact list " + contacts.toString();
     }
 
+    private String interpretSearchAction(){
+        System.out.println("Search by Contact name");
+        Scanner sc = new Scanner(System.in);
+        String nameInput = sc.nextLine();
+        Contact matchingContact = contactService.getContactByName(nameInput);
+
+        if(matchingContact == null) {
+            return "Contact not found";
+        }else{
+            return "Contact: " + matchingContact.toString();
+        }
+    }
+
     public String  interpretDeleteAction() throws ContactException {
         //first retrieve contact list
         //check if list is empty if list throw exception
@@ -89,6 +107,7 @@ public class CLIParser {
         String nameInput = sc.nextLine();
         contactService.deleteContact(nameInput);
         return "";
+
 
 
 

@@ -37,6 +37,17 @@ public class ContactService {
 
     }
 
+    public Contact getContactByName(String name){
+        for(int i = 0; i < contacts.size(); i=i+1) {
+            Contact currentContact = contacts.get(i);
+        if(currentContact.getName().equals(name)){
+            return currentContact;
+        }
+    }
+
+    return null;
+    }
+
     public void deleteContact(String name) {
         Main.log.info ("Deleting contact." + name);
         Iterator<Contact> iterator = contacts.iterator();
@@ -47,6 +58,7 @@ public class ContactService {
                     iterator.remove();
                     System.out.println("Contact deleted successfully");
                     return;
+
 
                 }
             }

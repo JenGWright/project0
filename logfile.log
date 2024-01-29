@@ -92,3 +92,64 @@ INFO	2024-01-29 08:19:39,431	30700	org.example.Main	[main]	Deleting contact.dann
 WARN	2024-01-29 08:19:39,431	30700	org.example.Main	[main]	Deleting contact
 INFO	2024-01-29 08:20:44,346	0	org.example.Main	[main]	log, adding a Contact.jen,asdf,23123,je@geico.com
 INFO	2024-01-29 08:24:17,458	0	org.example.Main	[main]	log, adding a Contact.jen,asdf,555555,je@geico.com
+INFO	2024-01-29 09:32:35,493	0	org.example.Main	[main]	log, adding a Contact.jen wright,1 main st,5555555,je@wright.geico.com
+INFO	2024-01-29 09:33:00,160	24667	org.example.Main	[main]	log, adding a Contact.danny,1 main,4444444,asf@gmail
+INFO	2024-01-29 09:33:02,021	26528	org.example.Main	[main]	Retrieving contacts: [Name: jen wright, Street Address: 1 main st, Phone Number: 5555555, Email:je@wright.geico.com, Name: danny, Street Address: 1 main, Phone Number: 4444444, Email:asf@gmail]
+INFO	2024-01-29 09:33:09,099	33606	org.example.Main	[main]	Retrieving contacts: [Name: jen wright, Street Address: 1 main st, Phone Number: 5555555, Email:je@wright.geico.com, Name: danny, Street Address: 1 main, Phone Number: 4444444, Email:asf@gmail]
+INFO	2024-01-29 09:33:11,431	35938	org.example.Main	[main]	Deleting contact.danny
+WARN	2024-01-29 09:33:11,431	35938	org.example.Main	[main]	Deleting contact
+INFO	2024-01-29 09:33:46,990	0	org.example.Main	[main]	log, adding a Contact.name,street,-999999999,email
+INFO	2024-01-29 09:33:46,997	7	org.example.Main	[main]	Retrieving contacts: []
+INFO	2024-01-29 09:33:46,998	8	org.example.Main	[main]	log, adding a Contact.name,street,999999999,email
+INFO	2024-01-29 09:33:46,999	9	org.example.Main	[main]	Retrieving contacts: [Name: name, Street Address: street, Phone Number: 999999999, Email:email]
+INFO	2024-01-29 09:35:32,755	0	org.example.Main	[main]	log, adding a Contact.name,street,-999999999,email
+INFO	2024-01-29 09:35:32,762	7	org.example.Main	[main]	Retrieving contacts: []
+INFO	2024-01-29 09:35:32,763	8	org.example.Main	[main]	log, adding a Contact.name,street,999999999,email
+INFO	2024-01-29 09:35:32,763	8	org.example.Main	[main]	Retrieving contacts: [Name: name, Street Address: street, Phone Number: 999999999, Email:email]
+INFO	2024-01-29 09:55:10,655	0	org.example.Main	[main]	log, adding a Contact.,asdf,7777777,asd@geico.com
+WARN	2024-01-29 09:55:10,657	2	org.example.Main	[main]	throwing Contact exception due to misformatted Name: 
+INFO	2024-01-29 09:55:36,942	0	org.example.Main	[main]	log, adding a Contact.Jen Wright,1 main street,5555555,je@geico.com
+INFO	2024-01-29 09:56:06,249	29307	org.example.Main	[main]	log, adding a Contact.danny,1 main,4444444,as@geico.com
+INFO	2024-01-29 09:56:08,201	31259	org.example.Main	[main]	Retrieving contacts: [Name: Jen Wright, Street Address: 1 main street, Phone Number: 5555555, Email:je@geico.com, Name: danny, Street Address: 1 main, Phone Number: 4444444, Email:as@geico.com]
+INFO	2024-01-29 09:56:12,700	35758	org.example.Main	[main]	Retrieving contacts: [Name: Jen Wright, Street Address: 1 main street, Phone Number: 5555555, Email:je@geico.com, Name: danny, Street Address: 1 main, Phone Number: 4444444, Email:as@geico.com]
+INFO	2024-01-29 09:56:15,797	38855	org.example.Main	[main]	Deleting contact.danny
+WARN	2024-01-29 09:56:15,797	38855	org.example.Main	[main]	Deleting contact
+INFO	2024-01-29 10:33:34,178	0	org.example.Main	[main]	log, adding a Contact.jen,asf,7677,je@geico.com
+INFO	2024-01-29 10:51:50,230	0	org.example.Main	[main]	log, adding a Contact.jen,asdf,978,adsf
+INFO	2024-01-29 11:32:13,055	0	org.example.Main	[main]	log, adding a Contact.Jen,1 main street,5555555,je@geico.com
+INFO	2024-01-29 11:32:33,561	20506	org.example.Main	[main]	log, adding a Contact.danny,2 main,44444444,je@geico.com
+INFO	2024-01-29 11:32:36,316	23261	org.example.Main	[main]	Retrieving contacts: [Name: Jen, Street Address: 1 main street, Phone Number: 5555555, Email:je@geico.com, Name: danny, Street Address: 2 main, Phone Number: 44444444, Email:je@geico.com]
+INFO	2024-01-29 11:32:42,968	29913	org.example.Main	[main]	Retrieving contacts: [Name: Jen, Street Address: 1 main street, Phone Number: 5555555, Email:je@geico.com, Name: danny, Street Address: 2 main, Phone Number: 44444444, Email:je@geico.com]
+INFO	2024-01-29 11:32:46,703	33648	org.example.Main	[main]	Deleting contact.danny
+WARN	2024-01-29 11:32:46,703	33648	org.example.Main	[main]	Deleting contact
+INFO	2024-01-29 11:32:48,579	35524	org.example.Main	[main]	Retrieving contacts: [Name: Jen, Street Address: 1 main street, Phone Number: 5555555, Email:je@geico.com]
+INFO	2024-01-29 11:33:13,824	0	org.example.Main	[main]	log, adding a Contact.name,street,-999999999,email
+INFO	2024-01-29 11:33:13,830	6	org.example.Main	[main]	Retrieving contacts: []
+INFO	2024-01-29 11:33:13,830	6	org.example.Main	[main]	log, adding a Contact.name,street,999999999,email
+INFO	2024-01-29 11:33:13,832	8	org.example.Main	[main]	Retrieving contacts: [Name: name, Street Address: street, Phone Number: 999999999, Email:email]
+INFO	2024-01-29 14:01:09,624	0	org.example.Main	[main]	log, adding a Contact.jen,2205 knox,5555555,jk@geico.com
+INFO	2024-01-29 14:34:34,362	0	org.example.Main	[main]	log, adding a Contact.jen,asf,98789,adf@geico.com
+INFO	2024-01-29 14:34:37,533	3171	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: asf, Phone Number: 98789, Email:adf@geico.com]
+INFO	2024-01-29 14:34:40,882	6520	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: asf, Phone Number: 98789, Email:adf@geico.com]
+INFO	2024-01-29 14:34:42,215	7853	org.example.Main	[main]	Deleting contact.jen
+WARN	2024-01-29 14:34:42,215	7853	org.example.Main	[main]	Deleting contact
+INFO	2024-01-29 17:12:41,406	0	org.example.Main	[main]	log, adding a Contact.Jen,2205 knox court,5555555,je@geico.com
+INFO	2024-01-29 17:16:21,625	0	org.example.Main	[main]	log, adding a Contact.jen,2204 main street,5555555,je@geico.com
+INFO	2024-01-29 17:16:23,382	1757	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: 2204 main street, Phone Number: 5555555, Email:je@geico.com]
+INFO	2024-01-29 17:24:09,586	467961	org.example.Main	[main]	log, adding a Contact.jen,asdf,8,asdf
+INFO	2024-01-29 17:24:12,259	470634	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: 2204 main street, Phone Number: 5555555, Email:je@geico.com, Name: jen, Street Address: asdf, Phone Number: 8, Email:asdf]
+INFO	2024-01-29 17:52:41,262	2179637	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: 2204 main street, Phone Number: 5555555, Email:je@geico.com, Name: jen, Street Address: asdf, Phone Number: 8, Email:asdf]
+INFO	2024-01-29 17:52:44,016	2182391	org.example.Main	[main]	Deleting contact.jen
+WARN	2024-01-29 17:52:44,017	2182392	org.example.Main	[main]	Deleting contact
+INFO	2024-01-29 17:55:26,333	0	org.example.Main	[main]	log, adding a Contact.jen,sadff,75757575,je@geico.com
+INFO	2024-01-29 17:56:38,972	0	org.example.Main	[main]	log, adding a Contact.jen,adsf,7474747,asdf
+INFO	2024-01-29 17:57:35,649	0	org.example.Main	[main]	log, adding a Contact.asdf,asdf,8575757,asd
+INFO	2024-01-29 17:57:50,387	14738	org.example.Main	[main]	Retrieving contacts: [Name: asdf, Street Address: asdf, Phone Number: 8575757, Email:asd]
+INFO	2024-01-29 17:59:52,443	0	org.example.Main	[main]	log, adding a Contact.jen,asdf,987897,asdf
+INFO	2024-01-29 17:59:56,131	3688	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: asdf, Phone Number: 987897, Email:asdf]
+INFO	2024-01-29 18:00:39,093	0	org.example.Main	[main]	log, adding a Contact.jen,asdf,98779,asdf
+INFO	2024-01-29 18:03:07,784	148691	org.example.Main	[main]	log, adding a Contact.danny,asdf,2343,aas@geico.com
+INFO	2024-01-29 18:03:10,197	151104	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: asdf, Phone Number: 98779, Email:asdf, Name: danny, Street Address: asdf, Phone Number: 2343, Email:aas@geico.com]
+INFO	2024-01-29 18:03:25,490	166397	org.example.Main	[main]	Retrieving contacts: [Name: jen, Street Address: asdf, Phone Number: 98779, Email:asdf, Name: danny, Street Address: asdf, Phone Number: 2343, Email:aas@geico.com]
+INFO	2024-01-29 18:03:30,135	171042	org.example.Main	[main]	Deleting contact.danny
+WARN	2024-01-29 18:03:30,135	171042	org.example.Main	[main]	Deleting contact

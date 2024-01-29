@@ -20,7 +20,7 @@ public class Main {
 // create variable that will be used to stop the app
         boolean condition = true;
         while(condition){
-            System.out.println("add / view / delete / stop");
+            System.out.println("add / view / search / delete / stop");
             String input = sc.nextLine();
             try {
                 String output = cliParser.parseCommandReturnOutput(input);
@@ -29,7 +29,7 @@ public class Main {
                     condition = false;
                 }
             }catch(CLIException exception){
-                System.out.println("Invalid entry, you must enter add, view, delete or stop");
+                System.out.println("Invalid entry, you must enter add, view, search, delete or stop");
                 exception.printStackTrace();
             }catch(ContactException exception){
                 System.out.println(exception.getMessage());
