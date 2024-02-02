@@ -1,6 +1,7 @@
 Contact list that allows users to
     * add - users can enter name, street address, phone numbers and email address
     * view - contacts will be returned
+    * search - can search contacts by name
     * delete - users can delete contacts by entering the name of the person they want to remove
     * stop - stops the program from running
 
